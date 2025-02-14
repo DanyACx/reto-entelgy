@@ -8,7 +8,7 @@ import com.entelgy.reto.config.AppConfig;
 import com.entelgy.reto.service.AnimalService;
 import com.entelgy.reto.service.IAnimal;
 
-public class RetoApplication   {
+public class RetoApplication   { // para PR
 
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
